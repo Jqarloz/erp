@@ -1,0 +1,88 @@
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>El Recuerdo | Restaurant</title>
+    
+     <!-- Normalize CSS -->
+	<link rel="stylesheet" href="css/normalize.css">
+    
+     <!-- Materialize CSS -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+    
+     <!-- Material Design Iconic Font CSS -->
+	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+    
+    <!-- Malihu jQuery custom content scroller CSS -->
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    
+    <!-- Sweet Alert CSS -->
+    <link rel="stylesheet" href="css/sweetalert.css">
+    
+    <!-- MaterialDark CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Nav Lateral -->
+    <section class="NavLateral full-width">
+        <div class="NavLateral-FontMenu full-width ShowHideMenu"></div>
+        <div class="NavLateral-content full-width">
+            <header class="NavLateral-title full-width center-align">
+                El Recuerdo <i class="zmdi zmdi-close NavLateral-title-btn ShowHideMenu"></i>            </header>
+            <figure class="full-width NavLateral-logo">
+                <img src="assets/img/logo2.png" alt="material-logo" class="responsive-img center-box">
+                <figcaption class="center-align">¡Nada mejor que regresar a casa!</figcaption>
+            </figure> 
+            <div class="NavLateral-Nav">
+                <ul class="full-width">
+                    <li>
+                        <a href="home.php" class="waves-effect waves-light"><i class="zmdi zmdi-face zmdi-hc-fw"></i> Bienvenida</a>                    </li>
+                    <li class="NavLateralDivider"></li>
+                    <li>
+                        <a href="#" class="NavLateral-DropDown  waves-effect waves-light"><i class="zmdi zmdi-language-css3 zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Menu</a>
+                        <ul class="full-width">
+                            <li><a href="#" class="waves-effect waves-light">Platillos</a></li>
+                            <li><a href="#" class="waves-effect waves-light">Especialidades</a></li>
+							<li><a href="#" class="waves-effect waves-light">Bebidas</a></li>
+                        </ul>
+                    </li>
+                    <li class="NavLateralDivider"></li>
+                    <li>
+                        <a href="#" class="NavLateral-DropDown  waves-effect waves-light"><i class="zmdi zmdi-view-web zmdi-hc-fw"></i> <i class="zmdi zmdi-chevron-down NavLateral-CaretDown"></i> Sample Pages</a>
+                        <ul class="full-width">
+                            <li><a href="template.html" class="waves-effect waves-light">Blank Page</a></li>
+                        </ul>
+                    </li>   
+                </ul>
+            </div>  
+        </div>  
+    </section>
+    
+    <!-- Sweet Alert JS -->
+    <script src="js/sweetalert.min.js"></script>
+    
+    <!-- jQuery -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-2.2.0.min.js"><\/script>')</script>
+    
+    <!-- Materialize JS -->
+	<script src="js/materialize.min.js"></script>
+    
+    <!-- Malihu jQuery custom content scroller JS -->
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    
+    <!-- MaterialDark JS -->
+	<script src="js/main.js"></script>
+	
+	  <script>
+		$(document).ready(function(){
+		$(".button-collapse").sideNav();
+		$('.modal-trigger').leanModal();
+		$('.collapsible').collapsible({
+			  accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+			});
+		$('.slider').slider({full_width: true});
+			})
+	  </script>
+</body>
+</html>

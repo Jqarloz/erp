@@ -1,0 +1,2 @@
+1. BuscarEmpleado
+2. RealizarPagoE
